@@ -60,10 +60,12 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    margin-top: 18px;
 }
 
 p {
     line-height: 1.4;
+    margin-top: 4%;
 }
 
 .container {
@@ -143,4 +145,89 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+a {
+    color: black;
+    font-size: small;
+    text-decoration: none;  
+    margin: 3em;  
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+#teal {
+    background-color: teal;
+}
+
+#gold {
+    background-color: gold;
+}
+#cadetblue {
+    background-color: cadetblue;
+}
+#coral {
+    background-color: coral;
+}
+#crimson {
+    background-color: crimson;
+}   
+#forestgreen {
+    background-color: forestgreen;
+}
+#darkorchid {
+    background-color: darkorchid;
+}
+#hotpink {
+    background-color: hotpink ;
+}
+#indigo {
+    background-color: indigo;
+}
+#dodgerblue {
+    background-color: dodgerblue;
+}
+
+#strategy {
+    border-bottom: 2px dotted black;
+    max-width: 50%;
+}
+ 
+#howWeWork {
+    border-bottom: 2px dotted black;
+    max-width: 50%;
+}
+
+#places {
+    border-bottom: 2px dotted black;
+    max-width: 50%;
+}
+#collaboration {
+    border-bottom: 2px dotted black;
+    max-width: 50%;
+}
+#midLine {
+    display: flex;
+    padding: 1em;
+    
+}
+
+#bottomLine {
+    display: flex;
+    padding: 1em;
+}
+
+button {
+    background-color: floralwhite;
+    padding: 1em;
+    border-radius: 20%;
+    margin: 1em;
+}
+
+img {
+    border: solid 20px white;
 }
